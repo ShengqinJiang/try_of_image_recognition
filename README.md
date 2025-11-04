@@ -8,3 +8,9 @@
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 现阶段情况
+
+目前刚起步，目标为识别图像中数字
+

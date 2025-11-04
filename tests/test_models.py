@@ -1,5 +1,13 @@
 import unittest
 import torch
+import sys
+import os
+
+# 获取当前文件的目录，然后获取父目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
+
 from src.models.cnn_model import SimpleCNN
 
 class TestCNNModel(unittest.TestCase):
